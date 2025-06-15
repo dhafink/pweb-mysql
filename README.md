@@ -71,7 +71,8 @@ CREATE TABLE pendaftar (
 ![image](https://github.com/user-attachments/assets/4d2b43d3-d6e3-48c9-980f-175dd752f92b)
 
 ### Hasil Submit di database
-![image](https://github.com/user-attachments/assets/0f85ea2a-2a58-421f-b4e1-4de54fbe63c2)
+![image](https://github.com/user-attachments/assets/b4397270-a354-4d56-bb45-e01000276b81)
+
 
 ---
 
