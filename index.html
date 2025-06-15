@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Pendaftaran Siswa Baru</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <ul class="bubbles">
+      <li></li><li></li><li></li><li></li><li></li>
+      <li></li><li></li><li></li><li></li><li></li>
+    </ul>
+  </div>
+  <div class="container">
+    <h1>Formulir Pendaftaran Siswa Baru</h1>
+    <p>Silakan lengkapi informasi berikut secara benar.</p>
+    <form action="proses_simpan.php" method="post">
+      <label>Nama Lengkap</label>
+      <input type="text" name="nama" required>
+      
+      <label>Alamat Rumah</label>
+      <textarea name="alamat" required></textarea>
+      
+      <label>Jenis Kelamin</label>
+      <input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki
+      <input type="radio" name="jenis_kelamin" value="Perempuan" required> Perempuan
+      
+      <label>Agama</label>
+      <select name="agama" required>
+        <option value="">-- Pilih Agama --</option>
+        <option>Islam</option>
+        <option>Kristen</option>
+        <option>Hindu</option>
+        <option>Budha</option>
+        <option>Katolik</option>
+      </select>
+      
+      <label>Asal Sekolah</label>
+      <input type="text" name="asal_sekolah" required>
+      
+      <label>Email</label>
+      <input type="email" name="email" required>
+      
+      <label>No. Telepon</label>
+      <input type="tel" name="no_telepon" required>
+      
+      <button type="submit">Daftar Sekarang</button>
+    </form>
+  </div>
+</body>
+</html>
